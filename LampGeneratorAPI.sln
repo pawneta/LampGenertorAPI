@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.API", "Cars.API\Cars.API.csproj", "{C32D4A93-8719-45CD-BA49-7437F7F538E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lamps.API", "Lamps.API\Lamps.API.csproj", "{C32D4A93-8719-45CD-BA49-7437F7F538E5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DEF2F803-79DC-4FBE-92B9-7C9B45DB3609} = {DEF2F803-79DC-4FBE-92B9-7C9B45DB3609}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Domain", "Cars.Domain\Cars.Domain.csproj", "{1FE5139F-84FA-4A25-A040-F9567A6A99B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lamps.Domain", "Lamps.Domain\Lamps.Domain.csproj", "{1FE5139F-84FA-4A25-A040-F9567A6A99B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Application", "Cars.Application\Cars.Application.csproj", "{DEF2F803-79DC-4FBE-92B9-7C9B45DB3609}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lamps.Application", "Lamps.Application\Lamps.Application.csproj", "{DEF2F803-79DC-4FBE-92B9-7C9B45DB3609}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1FE5139F-84FA-4A25-A040-F9567A6A99B2} = {1FE5139F-84FA-4A25-A040-F9567A6A99B2}
 		{8A8A58B6-6854-4E96-A726-C1F7A0B99C2B} = {8A8A58B6-6854-4E96-A726-C1F7A0B99C2B}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Infrastructure", "Cars.Infrastructure\Cars.Infrastructure.csproj", "{8A8A58B6-6854-4E96-A726-C1F7A0B99C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lamps.Infrastructure", "Lamps.Infrastructure\Lamps.Infrastructure.csproj", "{8A8A58B6-6854-4E96-A726-C1F7A0B99C2B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1FE5139F-84FA-4A25-A040-F9567A6A99B2} = {1FE5139F-84FA-4A25-A040-F9567A6A99B2}
 	EndProjectSection

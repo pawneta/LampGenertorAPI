@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "Lamps.API.Controllers.LampsController",
+    "Method": "GetLamps",
+    "RelativePath": "api/Lamps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Lamps.Domain.Lamp, Lamps.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Lamps.API.Controllers.LampsController",
+    "Method": "CreateLamp",
+    "RelativePath": "api/Lamps",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lamp",
+        "Type": "Lamps.Domain.Lamp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lamps.API.Controllers.LampsController",
+    "Method": "GetLamp",
+    "RelativePath": "api/Lamps/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lamps.API.Controllers.LampsController",
+    "Method": "EditLamp",
+    "RelativePath": "api/Lamps/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "lamp",
+        "Type": "Lamps.Domain.Lamp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lamps.API.Controllers.LampsController",
+    "Method": "DeleteLamp",
+    "RelativePath": "api/Lamps/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
