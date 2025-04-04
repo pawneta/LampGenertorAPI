@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Lamps.API")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lamps.Infrastructure")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d36d30c8ecf1e1af13d2e41b63dacd9fbbb966")]
-[assembly: System.Reflection.AssemblyProductAttribute("Lamps.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Lamps.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lamps.Infrastructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lamps.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad"
+    },
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl"
+    },
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.scad"
+    },
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.stl"
+    },
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad"
+    },
+    {
+      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lamps.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Lamps.API.props",
+      "PackagePath": "build\\Lamps.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Lamps.API.props",
+      "PackagePath": "buildMultiTargeting\\Lamps.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Lamps.API.props",
+      "PackagePath": "buildTransitive\\Lamps.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -184,3 +184,4 @@ C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.API\obj\Deb
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.API\obj\Debug\net8.0\Lamps.API.pdb
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.API\obj\Debug\net8.0\Lamps.API.genruntimeconfig.cache
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.API\obj\Debug\net8.0\ref\Lamps.API.dll
+C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.API\bin\Debug\net8.0\Lamps.API.staticwebassets.runtime.json

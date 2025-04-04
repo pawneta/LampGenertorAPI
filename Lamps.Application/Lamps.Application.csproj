@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Lamps.Infrastructure\Lamps.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Lamps\Nowy folder\" />
+  </ItemGroup>
+
 </Project>

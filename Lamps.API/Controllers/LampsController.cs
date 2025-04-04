@@ -9,6 +9,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 using System.Collections.Generic;
 
+
 namespace Lamps.API.Controllers
 {
     public class LampsController : BaseApiController
@@ -33,10 +34,44 @@ namespace Lamps.API.Controllers
 
 
         [HttpPost]
-        public IActionResult CreateLamp(Lamp lamp)
+        public async Task<IActionResult> CreateLamp([FromBody] LampDto lampDto)
         {
-            return Ok(new { message = "API działa, ale logika nie została jeszcze zaimplementowana." });
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            // Get the full path to wwwroot
+            var webRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+
+            // Create stl_files directory if it doesn't exist
+            var stlDir = Path.Combine(webRootPath, "stl_files");
+            if (!Directory.Exists(stlDir))
+            {
+                Directory.CreateDirectory(stlDir);
+            }
+
+            var fileName = $"lamp_{Guid.NewGuid()}.stl";
+            var filePath = Path.Combine(stlDir, fileName);
+
+            try
+            {
+                bool success = await LampModelGenerator.GenerateSTL(lampDto, filePath);
+                if (!success)
+                {
+                    return StatusCode(500, "Failed to generate STL file.");
+                }
+
+                var fileUrl = $"{Request.Scheme}://{Request.Host}/stl_files/{fileName}";
+                return Ok(new { fileUrl });
+            }
+            catch (Exception ex)
+            {
+                // Log the error for debugging
+                return StatusCode(500, $"Error generating STL file: {ex.Message}");
+            }
         }
+
 
 
     }

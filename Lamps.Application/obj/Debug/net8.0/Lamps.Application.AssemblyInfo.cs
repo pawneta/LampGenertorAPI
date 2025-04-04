@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lamps.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9665a290543cd1c6eb904dace9160d8350cdd811")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d36d30c8ecf1e1af13d2e41b63dacd9fbbb966")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lamps.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lamps.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
