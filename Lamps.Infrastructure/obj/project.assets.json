@@ -5563,19 +5563,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marta\\.nuget\\packages\\": {}
+    "C:\\Users\\Żania\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Infrastructure\\Lamps.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Infrastructure\\Lamps.Infrastructure.csproj",
       "projectName": "Lamps.Infrastructure",
-      "projectPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Infrastructure\\Lamps.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Infrastructure\\Lamps.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Żania\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Żania\\Source\\Repos\\LampGenertorAPI2\\Lamps.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Żania\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5590,8 +5590,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Domain\\Lamps.Domain.csproj": {
-              "projectPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Domain\\Lamps.Domain.csproj"
+            "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Domain\\Lamps.Domain.csproj": {
+              "projectPath": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Domain\\Lamps.Domain.csproj"
             }
           }
         }
@@ -5650,17 +5650,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Podczas pobierania danych o lukach w zabezpieczeniach pakietu wystąpił błąd: Nie można załadować indeksu usługi dla źródła https://api.nuget.org/v3/index.json."
-    },
     {
       "code": "NU1701",
       "level": "Warning",

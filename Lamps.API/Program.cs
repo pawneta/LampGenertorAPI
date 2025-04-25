@@ -21,11 +21,21 @@ builder.Services.AddDbContext<DataContext>(opt =>
 {
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+//builder.Services.AddCors(opt =>
+//{
+//    opt.AddPolicy("CorsPolicy", policy =>
+//    {
+//        policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:7249", "http://localhost:3000", "http://localhost:3001");
+//    });
+//});
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("CorsPolicy", policy =>
     {
-        policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:7249", "http://localhost:3000", "http://localhost:3001");
+        policy.AllowAnyHeader()
+              .AllowAnyMethod()
+              .WithOrigins("http://localhost:3000") // React app's origin
+              .AllowCredentials(); // Allow credentials (cookies, authorization headers, etc.)
     });
 });
 
@@ -40,6 +50,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx =>
+    {
+        ctx.Context.Response.Headers.Append("Access-Control-Allow-Origin", "http://localhost:3000");
+    }
+});
+
 
 app.UseHttpsRedirection();
 

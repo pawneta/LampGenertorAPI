@@ -11,3 +11,16 @@ C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.Domain\obj\
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.Domain\obj\Debug\net8.0\refint\Lamps.Domain.dll
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.pdb
 C:\Users\marta\OneDrive\Academia\6\3DM\LampGen\LampGenertorAPI\Lamps.Domain\obj\Debug\net8.0\ref\Lamps.Domain.dll
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\bin\Debug\net8.0\Lamps.Domain.deps.json
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\bin\Debug\net8.0\Lamps.Domain.dll
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\bin\Debug\net8.0\Lamps.Domain.pdb
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.csproj.AssemblyReference.cache
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.AssemblyInfoInputs.cache
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.AssemblyInfo.cs
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.sourcelink.json
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.dll
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\refint\Lamps.Domain.dll
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\Lamps.Domain.pdb
+C:\Users\Żania\Source\Repos\LampGenertorAPI2\Lamps.Domain\obj\Debug\net8.0\ref\Lamps.Domain.dll

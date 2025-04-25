@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.scad))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad</RelativePath>
+      <RelativePath>stl_files/lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.scad</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.scad))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.stl))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl</RelativePath>
+      <RelativePath>stl_files/lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.stl</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.stl))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_638c64fb-960f-4798-810f-a5411daad570.scad))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.scad))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_638c64fb-960f-4798-810f-a5411daad570.scad</RelativePath>
+      <RelativePath>stl_files/lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.scad</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_638c64fb-960f-4798-810f-a5411daad570.scad))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.scad))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_638c64fb-960f-4798-810f-a5411daad570.stl))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.stl))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_638c64fb-960f-4798-810f-a5411daad570.stl</RelativePath>
+      <RelativePath>stl_files/lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.stl</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_638c64fb-960f-4798-810f-a5411daad570.stl))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.stl))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.scad))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad</RelativePath>
+      <RelativePath>stl_files/lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.scad</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.scad))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.stl))">
       <SourceType>Package</SourceType>
       <SourceId>Lamps.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Lamps.API</BasePath>
-      <RelativePath>stl_files/lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl</RelativePath>
+      <RelativePath>stl_files/lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.stl</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,7 +94,391 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_464dfc5a-06db-42ef-9316-709023c2077d.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_464dfc5a-06db-42ef-9316-709023c2077d.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_464dfc5a-06db-42ef-9316-709023c2077d.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_464dfc5a-06db-42ef-9316-709023c2077d.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_464dfc5a-06db-42ef-9316-709023c2077d.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_464dfc5a-06db-42ef-9316-709023c2077d.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_65f1926e-e124-4957-b742-db366462b1a1.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_65f1926e-e124-4957-b742-db366462b1a1.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_65f1926e-e124-4957-b742-db366462b1a1.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_65f1926e-e124-4957-b742-db366462b1a1.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_65f1926e-e124-4957-b742-db366462b1a1.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_65f1926e-e124-4957-b742-db366462b1a1.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_920839da-5909-44b9-988d-16d0c775f637.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_920839da-5909-44b9-988d-16d0c775f637.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_920839da-5909-44b9-988d-16d0c775f637.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_920839da-5909-44b9-988d-16d0c775f637.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_920839da-5909-44b9-988d-16d0c775f637.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_920839da-5909-44b9-988d-16d0c775f637.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_9301f773-2699-47b2-9280-025254e1f9cf.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_9301f773-2699-47b2-9280-025254e1f9cf.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_9301f773-2699-47b2-9280-025254e1f9cf.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_9301f773-2699-47b2-9280-025254e1f9cf.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_9301f773-2699-47b2-9280-025254e1f9cf.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_9301f773-2699-47b2-9280-025254e1f9cf.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.stl))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.scad))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.scad</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.scad))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.stl))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lamps.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lamps.API</BasePath>
+      <RelativePath>stl_files/lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.stl</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\stl_files\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.stl))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

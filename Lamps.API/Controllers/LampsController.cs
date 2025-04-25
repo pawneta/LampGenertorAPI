@@ -52,7 +52,8 @@ namespace Lamps.API.Controllers
             }
 
             var fileName = $"lamp_{Guid.NewGuid()}.stl";
-            var filePath = Path.Combine(stlDir, fileName);
+            //var filePath = Path.Combine(stlDir, fileName);
+            var filePath = Path.Combine("wwwroot", "stl_files", fileName);
 
             try
             {

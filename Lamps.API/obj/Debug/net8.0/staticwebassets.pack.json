@@ -1,28 +1,124 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.scad"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.scad"
     },
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_621e72ea-bbbc-4010-a62c-7ab76ba3509c.stl"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_07f99b0a-5edc-45d7-8d47-82621cf7f67c.stl"
     },
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.scad",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.scad"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.scad"
     },
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.stl",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_638c64fb-960f-4798-810f-a5411daad570.stl"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_189f327f-82bb-4468-815d-d3c0fb9cf461.stl"
     },
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.scad"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.scad"
     },
     {
-      "Id": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\wwwroot\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl",
-      "PackagePath": "staticwebassets\\stl_files\\lamp_c2410722-8cbc-4117-baf9-1ad5e412994b.stl"
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_18fb0696-d303-4dc1-aedd-78a6b7d3c485.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_1fc2cee3-edaf-47ba-ba3b-649e014b61a6.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_2332a8fd-6204-43ce-ba3d-8bb3d37e675a.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_464dfc5a-06db-42ef-9316-709023c2077d.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_464dfc5a-06db-42ef-9316-709023c2077d.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_464dfc5a-06db-42ef-9316-709023c2077d.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_464dfc5a-06db-42ef-9316-709023c2077d.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_65f1926e-e124-4957-b742-db366462b1a1.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_65f1926e-e124-4957-b742-db366462b1a1.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_65f1926e-e124-4957-b742-db366462b1a1.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_65f1926e-e124-4957-b742-db366462b1a1.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_68e6591a-3953-432c-8d83-d8c0df0dc0e0.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_920839da-5909-44b9-988d-16d0c775f637.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_920839da-5909-44b9-988d-16d0c775f637.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_920839da-5909-44b9-988d-16d0c775f637.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_920839da-5909-44b9-988d-16d0c775f637.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_9301f773-2699-47b2-9280-025254e1f9cf.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_9301f773-2699-47b2-9280-025254e1f9cf.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_9301f773-2699-47b2-9280-025254e1f9cf.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_9301f773-2699-47b2-9280-025254e1f9cf.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_afab4d74-cc6f-46bc-b3c8-ce68a4b30b03.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_ba031a37-7788-4fc9-9206-c8a7c4067b37.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_bd9a1ee3-b3c5-46cb-a2d5-255a9edc4d98.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_c94d989f-9f8f-4d8b-8a2e-e04b5b59cd4a.stl"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.scad",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.scad"
+    },
+    {
+      "Id": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\wwwroot\\stl_files\\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.stl",
+      "PackagePath": "staticwebassets\\stl_files\\lamp_ed679eb0-aecb-43e2-a9da-9215d3a14dab.stl"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lamps.API.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lamps.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9665a290543cd1c6eb904dace9160d8350cdd811")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb3f6756da706c83257d4ccf96db51ebb17a0046")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lamps.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lamps.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
