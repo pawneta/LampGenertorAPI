@@ -1,17 +1,24 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.Globalization;
 using System.IO;
+using System.Runtime.Intrinsics.Arm;
 using System.Threading.Tasks;
 using Lamps.Application.Lamps;
+using Lamps.Domain;
+//using static System.Net.WebRequestMethods;
 
 public class LampModelGenerator
 {
-    private const string OpenScadPath = @"C:\Program Files\OpenSCAD\openscad.exe"; // Sprawdź swoją ścieżkę!
+    private const string OpenScadPath = @"C:\Program Files\OpenSCAD\openscad.exe"; // Upewnij się, że ścieżka jest poprawna!
 
+    /// <summary>
+    /// Generuje pojedynczy plik STL dla całej lampy (wszystkie części razem).
+    /// </summary>
     public static async Task<bool> GenerateSTL(LampDto lamp, string outputPath)
     {
         try
         {
-            // Ensure the directory exists
             var directory = Path.GetDirectoryName(outputPath);
             if (!Directory.Exists(directory))
             {
@@ -19,11 +26,11 @@ public class LampModelGenerator
             }
 
             string scadFilePath = Path.ChangeExtension(outputPath, ".scad");
-            string scadCode = GenerateOpenSCADCode(lamp);
+            string scadCode = GenerateFullLampOpenSCAD(lamp);
 
             await File.WriteAllTextAsync(scadFilePath, scadCode);
 
-            ProcessStartInfo startInfo = new ProcessStartInfo
+            var startInfo = new ProcessStartInfo
             {
                 FileName = OpenScadPath,
                 Arguments = $"-o \"{outputPath}\" \"{scadFilePath}\"",
@@ -33,7 +40,7 @@ public class LampModelGenerator
                 CreateNoWindow = true
             };
 
-            using (Process process = new Process { StartInfo = startInfo })
+            using (var process = new Process { StartInfo = startInfo })
             {
                 process.Start();
                 await process.WaitForExitAsync();
@@ -42,45 +49,117 @@ public class LampModelGenerator
         }
         catch (Exception ex)
         {
-            // Log the error if needed
             Console.WriteLine($"Error in GenerateSTL: {ex}");
             return false;
         }
     }
 
-    private static string GenerateOpenSCADCode(LampDto lamp)
+    /// <summary>
+    /// Generuje osobne pliki STL dla każdej części lampy (osobne modele do kolorowania).
+    /// </summary>
+    public static async Task<bool> GenerateAllParts(LampDto lamp, string outputDirectory)
     {
-        return $@"
-module lamp(r_top, r_lamp, r_middle, r_base, h_top, h_lamp, h_base_top, h_base_bottom) {{
-    
-    // Poprawiona formuła r_upper_lamp
-    r_upper_lamp = r_top+(((r_lamp - r_top)*h_top) / (h_lamp + h_top));
-    
-    // Podstawa
-    cylinder(h_base_bottom, r1=r_base, r2=r_middle);
+        try
+        {
+            if (!Directory.Exists(outputDirectory))
+                Directory.CreateDirectory(outputDirectory);
 
-    // Górna część podstawy
-    translate([0,0,h_base_bottom])
-    cylinder(h_base_top, r1=r_middle, r2=r_lamp);
+            var parts = new (string Name, string Code)[]
+            {
+                ("base", GenerateBaseOpenSCAD(lamp)),
+                ("middle", GenerateMiddleOpenSCAD(lamp)),
+                ("top", GenerateTopOpenSCAD(lamp))
+            };
 
-    // Główna część lampy
-    translate([0,0,h_base_bottom + h_base_top])
-    cylinder(h_lamp, r1=r_lamp, r2=r_upper_lamp);
+            foreach (var (name, scadCode) in parts)
+            {
+                string scadPath = Path.Combine(outputDirectory, $"{name}.scad");
+                string stlPath = Path.Combine(outputDirectory, $"{name}.stl");
 
-    // Górna część lampy
-    translate([0,0,h_base_bottom + h_base_top + h_lamp])
-    cylinder(h_top, r1=r_upper_lamp, r2=r_top);
-}}
+                await File.WriteAllTextAsync(scadPath, scadCode);
 
-lamp(
-    r_top = {lamp.r_top},
-    r_lamp = {lamp.r_lamp},
-    r_middle = {lamp.r_middle},
-    r_base = {lamp.r_base},
-    h_top = {lamp.h_top},
-    h_lamp = {lamp.h_lamp},
-    h_base_top = {lamp.h_base_top},
-    h_base_bottom = {lamp.h_base_bottom}
-);";
+                var startInfo = new ProcessStartInfo
+                {
+                    FileName = OpenScadPath,
+                    Arguments = $"-o \"{stlPath}\" \"{scadPath}\"",
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                };
+
+                using (var process = new Process { StartInfo = startInfo })
+                {
+                    process.Start();
+                    await process.WaitForExitAsync();
+                    if (process.ExitCode != 0)
+                        return false;
+                }
+            }
+
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in GenerateAllParts: {ex}");
+            return false;
+        }
     }
+
+    // --- Kod generujący SCAD dla jednej lampy (stare GenerateOpenSCADCode) ---
+
+    private static string GenerateFullLampOpenSCAD(LampDto lamp)
+    {
+        double r_upper_lamp = lamp.r_top + (((lamp.r_lamp - lamp.r_top) * lamp.h_top) / (lamp.h_lamp + lamp.h_top));
+        return $@"
+r_upper_lamp = {lamp.r_top.ToString("0.##", CultureInfo.InvariantCulture)} + ((({lamp.r_lamp.ToString("0.##", CultureInfo.InvariantCulture)} - {lamp.r_top.ToString("0.##", CultureInfo.InvariantCulture)}) * {lamp.h_top.ToString("0.##", CultureInfo.InvariantCulture)}) / ({lamp.h_lamp.ToString("0.##", CultureInfo.InvariantCulture)} + {lamp.h_top.ToString("0.##", CultureInfo.InvariantCulture)}));
+
+cylinder(h={lamp.h_base_bottom.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_base.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_middle.ToString("0.##", CultureInfo.InvariantCulture)});
+
+translate([0,0,{lamp.h_base_bottom.ToString("0.##", CultureInfo.InvariantCulture)}])
+cylinder(h={lamp.h_base_top.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_middle.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_lamp.ToString("0.##", CultureInfo.InvariantCulture)});
+
+translate([0,0,{lamp.h_base_bottom.ToString("0.##", CultureInfo.InvariantCulture) + lamp.h_base_top.ToString("0.##", CultureInfo.InvariantCulture)}])
+color([1, 0.4, 0.7])
+cylinder(h={lamp.h_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r2=r_upper_lamp);
+
+translate([0,0,{lamp.h_base_bottom + lamp.h_base_top + lamp.h_lamp}])
+cylinder(h={lamp.h_top.ToString("0.##", CultureInfo.InvariantCulture)}, r1={r_upper_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_top.ToString("0.##", CultureInfo.InvariantCulture)});
+";
+    }
+
+    // --- Kody SCAD dla poszczególnych części lampy ---
+
+    private static string GenerateBaseOpenSCAD(LampDto lamp)
+    {
+        
+        return $@"
+cylinder(h={lamp.h_base_bottom.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_base.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_middle.ToString("0.##", CultureInfo.InvariantCulture)});
+
+translate([0,0,{lamp.h_base_bottom.ToString("0.##", CultureInfo.InvariantCulture)}])
+cylinder(h={lamp.h_base_top.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_middle.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_lamp.ToString("0.##", CultureInfo.InvariantCulture)});
+";
+    }
+
+    private static string GenerateMiddleOpenSCAD(LampDto lamp)
+    {
+        double r_upper_lamp = lamp.r_top + (((lamp.r_lamp - lamp.r_top) * lamp.h_top) / (lamp.h_lamp + lamp.h_top));
+
+        return $@"
+translate([0,0,{(lamp.h_base_bottom + lamp.h_base_top).ToString("0.##", CultureInfo.InvariantCulture)}])
+color([1, 0.4, 0.7])
+cylinder(h={lamp.h_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r1={lamp.r_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r2={r_upper_lamp.ToString("0.##", CultureInfo.InvariantCulture)});
+";
+    }
+
+    private static string GenerateTopOpenSCAD(LampDto lamp)
+    {
+        double r_upper_lamp = lamp.r_top + (((lamp.r_lamp - lamp.r_top) * lamp.h_top) / (lamp.h_lamp + lamp.h_top));
+
+        return $@"
+translate([0,0,{(lamp.h_base_bottom + lamp.h_base_top + lamp.h_lamp).ToString("0.##", CultureInfo.InvariantCulture)}])
+cylinder(h={lamp.h_top.ToString("0.##", CultureInfo.InvariantCulture)}, r1={r_upper_lamp.ToString("0.##", CultureInfo.InvariantCulture)}, r2={lamp.r_top.ToString("0.##", CultureInfo.InvariantCulture)});
+";
+    }
+
 }

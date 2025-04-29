@@ -6192,19 +6192,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Żania\\.nuget\\packages\\": {}
+    "C:\\Users\\marta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\Lamps.API.csproj",
+      "projectUniqueName": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\Lamps.API.csproj",
       "projectName": "Lamps.API",
-      "projectPath": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.API\\Lamps.API.csproj",
-      "packagesPath": "C:\\Users\\Żania\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Żania\\Source\\Repos\\LampGenertorAPI2\\Lamps.API\\obj\\",
+      "projectPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\Lamps.API.csproj",
+      "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Żania\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6219,8 +6219,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Application\\Lamps.Application.csproj": {
-              "projectPath": "C:\\Users\\Żania\\source\\repos\\LampGenertorAPI2\\Lamps.Application\\Lamps.Application.csproj"
+            "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Application\\Lamps.Application.csproj": {
+              "projectPath": "C:\\Users\\marta\\OneDrive\\Academia\\6\\3DM\\LampGen\\LampGenertorAPI\\Lamps.Application\\Lamps.Application.csproj"
             }
           }
         }
@@ -6282,7 +6282,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

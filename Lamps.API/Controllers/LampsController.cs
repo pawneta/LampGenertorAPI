@@ -41,37 +41,46 @@ namespace Lamps.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Get the full path to wwwroot
             var webRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-
-            // Create stl_files directory if it doesn't exist
             var stlDir = Path.Combine(webRootPath, "stl_files");
+
             if (!Directory.Exists(stlDir))
             {
                 Directory.CreateDirectory(stlDir);
             }
 
-            var fileName = $"lamp_{Guid.NewGuid()}.stl";
-            //var filePath = Path.Combine(stlDir, fileName);
-            var filePath = Path.Combine("wwwroot", "stl_files", fileName);
+            var lampId = Guid.NewGuid().ToString();
+            var lampDir = Path.Combine(stlDir, lampId);
+            Directory.CreateDirectory(lampDir);
 
             try
             {
-                bool success = await LampModelGenerator.GenerateSTL(lampDto, filePath);
+                bool success = await LampModelGenerator.GenerateAllParts(lampDto, lampDir);
                 if (!success)
                 {
-                    return StatusCode(500, "Failed to generate STL file.");
+                    return StatusCode(500, "Failed to generate STL files.");
                 }
 
-                var fileUrl = $"{Request.Scheme}://{Request.Host}/stl_files/{fileName}";
-                return Ok(new { fileUrl });
+                var baseUrl = $"{Request.Scheme}://{Request.Host}/stl_files/{lampId}";
+
+                return Ok(new
+                {
+                    baseUrl = baseUrl,
+                    parts = new
+                    {
+                        basePart = $"{baseUrl}/base.stl",
+                        middlePart = $"{baseUrl}/middle.stl",
+                        lampBodyPart = $"{baseUrl}/lamp_body.stl",
+                        topPart = $"{baseUrl}/top.stl"
+                    }
+                });
             }
             catch (Exception ex)
             {
-                // Log the error for debugging
-                return StatusCode(500, $"Error generating STL file: {ex.Message}");
+                return StatusCode(500, $"Error generating STL files: {ex.Message}");
             }
         }
+
 
 
 
